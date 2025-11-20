@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+public class Main {
+    public static void main(String[] args) {
+    String name = JOptionPane.showInputDialog("Enter your name");
+        int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age"));
+        double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height"));
+        JOptionPane.showMessageDialog(null,"Height is " + height + "cm tall.");
+    JOptionPane.showMessageDialog(null,"Hello " + name);
+    JOptionPane.showMessageDialog(null,"Your age is "+age);
+    }
+}
